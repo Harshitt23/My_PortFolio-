@@ -3,26 +3,26 @@ import { motion } from "framer-motion";
 export const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Computer Applications (BCA)",
-      institution: "J.S. University, Shikohabad",
-      duration: "2022 – 2025",
+      degree: "Bachelor in Technology (B.Tech)",
+      institution: "Graphic Era University, Dehradun",
+      duration: "2021 – 2025",
       percentage: "74%",
       details:
         "Graduated with strong academic performance focusing on computer programming, data structures, web development, and database systems. Completed several real-world projects using the MERN stack, showcasing both technical and problem-solving skills.",
     },
     {
       degree: "Intermediate (12th – PCM)",
-      institution: "Lokmanya Inter College, Tamkuhi Road",
-      duration: "2020 – 2022",
-      percentage: "59%",
+      institution: "St. Mary's Se. Sec. School, Haridwar",
+      duration: "2020 – 2021",
+      percentage: "87%",
       details:
         "Specialized in Physics, Chemistry, and Mathematics. Built a solid understanding of logical reasoning and analytical thinking, which laid the foundation for software development.",
     },
     {
       degree: "High School (10th)",
-      institution: "Lokmanya Inter College, Tamkuhi Road",
-      duration: "2018 – 2020",
-      percentage: "70%",
+      institution: "St. Mary's Se. Sec. School, Haridwar",
+      duration: "2019 – 2020",
+      percentage: "89%",
       details:
         "Achieved strong academic results with a focus on Science and Mathematics, sparking an early interest in computers and technology.",
     },

@@ -133,7 +133,7 @@ const Contact = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        © {new Date().getFullYear()} Roshan Kumar Rauniyar. All rights reserved.
+        © {new Date().getFullYear()} Harshit Sharma. All rights reserved.
       </motion.p>
     </div>
   );

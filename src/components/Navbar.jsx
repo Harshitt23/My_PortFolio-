@@ -9,19 +9,19 @@ const Navbar = () => {
   const socialLinks = [
     {
       Icon: FaLinkedin,
-      link: "https://www.linkedin.com/in/roshan-kumar-rauniyar-119536375/",
+      link: "https://www.linkedin.com/in/harshitcode/",
       color: "#0A66C2",
       label: "LinkedIn",
     },
     {
       Icon: FaInstagram,
-      link: "https://www.instagram.com/crazyroshan2022",
+      link: "https://www.instagram.com/sharma_ares/?hl=en",
       color: "#E4405F",
       label: "Instagram",
     },
     {
       Icon: FaGithub,
-      link: "https://github.com/roshankmrrk",
+      link: "https://github.com/Harshitt23",
       color: "#fff",
       label: "GitHub",
     },

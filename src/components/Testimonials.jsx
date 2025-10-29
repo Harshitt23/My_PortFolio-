@@ -6,14 +6,14 @@ const testimonials = [
     name: "Angad Sharma",
     role: "Dot Net Developer, Delhi, India",
     feedback:
-      "Working with Roshan was a great experience! His React and Tailwind CSS skills are top-notch and he delivers visually stunning results.",
+      "Working with Harshit was a great experience! His React and Tailwind CSS skills are top-notch and he delivers visually stunning results.",
     image: "https://balwant.netlify.app/anagad-modified.png",
   },
   {
     name: "Rahul Jatav",
     role: "BCA Graduate, Gorakhpur, India",
     feedback:
-      "Roshan is highly professional and detail-oriented. The web app he built was fast, secure, and beautifully responsive!",
+      "Harshit is highly professional and detail-oriented. The web app he built was fast, secure, and beautifully responsive!",
     image: "https://balwant.netlify.app/rahul-modified.png",
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
     name: "Rahul Sharma",
     role: "BCA Graduate, Gorakhpur, India",
     feedback:
-      "Roshan is highly professional and detail-oriented. The web app he built was fast, secure, and beautifully responsive!",
+      "Harshit is highly professional and detail-oriented. The web app he built was fast, secure, and beautifully responsive!",
     image: "https://balwant.netlify.app/rahul-modified.png",
   },
 ];
