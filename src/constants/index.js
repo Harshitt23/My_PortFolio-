@@ -58,20 +58,19 @@ export const PROJECTS = [
     live: "https://bite-tok-frontend-252kg3z2u-harshitt23s-projects.vercel.app",
   },
   {
-    title: "FitNFoods",
+    title: "Dabas.EV [Currently Working]",
     image: project4,
     description:
-      "A beautiful web application showcasing fashion inspiration and delicious food recipes, built with Express.js and modern web technologies.",
+      "Personal Freelancing Project Work.",
     keyFeatures: [
-      "Food and fashion galleries with responsive design",
-      "Interactive 'Cute Runner' mini game",
-      "Photobooth with filters and stickers",
-      "Upload and share your own posts",
-      "Dynamic video backgrounds for immersive experience",
+      "Modern UI Design",
+      "Next.js Architecture",
+      "Interactive About Section",
+      "Fully Responsive",
     ],
-    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Multer", "Animate.css", "Vercel"],
-    github: "https://github.com/Harshitt23/fitnfoods",
-    live: "https://fitnfoods-4yafm5tbi-harshitt23s-projects.vercel.app",
+    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
+    github: "https://github.com/Harshitt23/Dabas.EV",
+    live: "https://dabas-m6ox1k1fe-harshitt23s-projects.vercel.app",
   },
 ];
 
