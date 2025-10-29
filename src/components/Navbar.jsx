@@ -67,8 +67,8 @@ const Navbar = () => {
               transition={{ type: "spring", stiffness: 200 }}
               src={logo}
               className="mx-2"
-              width={75}
-              height={48}
+              width={92}
+              height={54}
               alt="logo"
             />
           </a>
