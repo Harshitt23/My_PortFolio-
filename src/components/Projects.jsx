@@ -60,13 +60,12 @@ const Projects = () => {
               className="w-full lg:w-1/4 flex justify-center"
               variants={cardVariants}
             >
-              <img
-                src={project.image}
-                width={250}
-                height={250}
-                alt={project.title}
-                className="mb-6 rounded-lg shadow-lg object-cover"
-              />
+             <img
+              src={project.image}
+              alt={project.title}
+              className="w-full max-w-[420px] h-[230px] rounded-lg shadow-lg object-cover object-center"
+            />
+
             </motion.div>
 
             {/* Text Section */}
