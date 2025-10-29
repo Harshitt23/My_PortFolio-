@@ -75,7 +75,7 @@ const Testimonials = () => {
       </motion.h2>
 
      {/* Carousel */}
-    <div className="relative overflow-hidden max-w-6xl mx-auto px-6">
+    <div className="relative overflow-hidden max-w-6xl mx-auto px-6 flex justify-center">
       <motion.div
         className="flex justify-center items-center gap-8"
         animate={{ x: `-${current * (100 / visibleCount)}%` }}
