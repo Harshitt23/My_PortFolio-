@@ -59,7 +59,7 @@ const Testimonials = () => {
     };
   }, [isMobile]);
 
-  const visibleCount = isMobile ? 1 : 3;
+  const visibleCount = isMobile ? 1 : 2;
 
   return (
     <div className="pb-32 bg-gradient-to-b from-stone-950 to-stone-900" id="testimonials">
