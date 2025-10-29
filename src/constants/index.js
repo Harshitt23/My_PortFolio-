@@ -1,6 +1,7 @@
-import project1 from "../assets/projects/image.png";
+import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/StudyNotion.jpg";
+import project3 from "../assets/projects/project-3.webp";
+import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `A passionate Full Stack Developer specializing in the MERN stack and Next.js. I love crafting scalable, high-performance web applications that deliver seamless user experiences. With hands-on experience in React.js, Next.js, Node.js, and MongoDB, I focus on building clean, efficient, and production-ready solutions. I also have solid knowledge of System Design and DevOps, and I’m deeply interested in exploring the world of Web3 and decentralized technologies.`;
 
@@ -55,6 +56,22 @@ export const PROJECTS = [
     technologies: ["React.js", "Vite", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "ImageKit", "Multer", "Axios", "CSS3"],
     github: "https://github.com/Harshitt23/BiteTok",
     live: "https://bite-tok-frontend-252kg3z2u-harshitt23s-projects.vercel.app",
+  },
+  {
+    title: "FitNFoods",
+    image: project4,
+    description:
+      "A beautiful web application showcasing fashion inspiration and delicious food recipes, built with Express.js and modern web technologies.",
+    keyFeatures: [
+      "Food and fashion galleries with responsive design",
+      "Interactive 'Cute Runner' mini game",
+      "Photobooth with filters and stickers",
+      "Upload and share your own posts",
+      "Dynamic video backgrounds for immersive experience",
+    ],
+    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Multer", "Animate.css", "Vercel"],
+    github: "https://github.com/Harshitt23/fitnfoods",
+    live: "https://fitnfoods-4yafm5tbi-harshitt23s-projects.vercel.app",
   },
 ];
 
