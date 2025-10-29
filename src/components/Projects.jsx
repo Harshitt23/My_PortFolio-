@@ -53,7 +53,7 @@ const Projects = () => {
           <motion.div
             key={index}
             variants={cardVariants}
-            className="mb-12 flex flex-wrap lg:justify-center p-6 rounded-2xl bg-stone-900/30 backdrop-blur-sm shadow-lg border border-stone-800 hover:shadow-blue-500/20 transition-shadow duration-300"
+            className="mb-12 flex flex-wrap lg:justify-center items-center p-6 rounded-2xl bg-stone-900/30 backdrop-blur-sm shadow-lg border border-stone-800 hover:shadow-blue-500/20 transition-shadow duration-300"
           >
             {/* Image Section */}
             <motion.div
