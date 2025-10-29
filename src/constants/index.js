@@ -10,6 +10,22 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer w
 export const PROJECTS = [
 
   {
+    title: "Dabas.EV [Currently Working]",
+    image: project4,
+    description:
+      "Personal Freelancing Project Work.",
+    keyFeatures: [
+      "Modern UI Design",
+      "Next.js + Framer Motion",
+      "Interactive About Section",
+      "Fully Responsive",
+      "Scalable Architecture",
+    ],
+    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
+    github: "https://github.com/Harshitt23/Dabas.EV",
+    live: "https://dabas-m6ox1k1fe-harshitt23s-projects.vercel.app",
+  },
+  {
     title: "AI Summarizer using GPT-4.0",
     image: project3,
     description:
@@ -57,22 +73,7 @@ export const PROJECTS = [
     github: "https://github.com/Harshitt23/BiteTok",
     live: "https://bite-tok-frontend-252kg3z2u-harshitt23s-projects.vercel.app",
   },
-  {
-    title: "Dabas.EV [Currently Working]",
-    image: project4,
-    description:
-      "Personal Freelancing Project Work.",
-    keyFeatures: [
-      "Modern UI Design",
-      "Next.js + Framer Motion",
-      "Interactive About Section",
-      "Fully Responsive",
-      "Scalable Architecture",
-    ],
-    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
-    github: "https://github.com/Harshitt23/Dabas.EV",
-    live: "https://dabas-m6ox1k1fe-harshitt23s-projects.vercel.app",
-  },
+
 ];
 
 export const CONTACT = {
