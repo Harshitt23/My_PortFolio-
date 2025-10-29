@@ -12,7 +12,7 @@ export const PROJECTS = [
     title: "AI Summarizer using GPT-4.0",
     image: project3,
     description:
-      "AI Summarizer lets you generate concise summaries of long articles in one click, powered by OpenAI. 🚀 It features Q&A, translation, fact-checking, and a modern UI built with React + Redux Toolkit.",
+      "AI Summarizer lets you generate concise summaries of long articles in one click, powered by OpenAI. It features Q&A, translation, fact-checking, and a modern UI built with React + Redux Toolkit.",
     keyFeatures: [
       "AI-Powered Summarization",
       "Features like - Question & Answer, Fact Checking and Translation",
