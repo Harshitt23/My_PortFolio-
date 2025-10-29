@@ -58,7 +58,7 @@ const Hero = () => {
                             variants={childVariants}
                             className="pb-2 text-4xl tracking-tighter lg:text-6xl"
                         >
-                            Roshan Kumar Rauniyar
+                            Harshit Sharma
                         </motion.h2>
 
                         <motion.span
