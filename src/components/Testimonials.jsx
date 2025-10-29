@@ -62,7 +62,7 @@ const Testimonials = () => {
   const visibleCount = isMobile ? 1 : 3;
 
   return (
-    <div className="pb-32" id="testimonials">
+    <div className="pb-32 bg-gradient-to-b from-stone-950 to-stone-900" id="testimonials">
       {/* Title */}
       <motion.h2
         initial={{ opacity: 0, y: -40 }}
@@ -74,41 +74,41 @@ const Testimonials = () => {
         Testimonials 💬
       </motion.h2>
 
-      {/* Carousel */}
-      <div className="relative overflow-hidden max-w-7xl mx-auto px-4">
-        <motion.div
-          className="flex gap-8"
-          animate={{ x: `-${current * (100 / visibleCount)}%` }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
-          style={{
-            width: `${(testimonials.length * 100) / visibleCount}%`,
-          }}
-        >
-          {testimonials.map((t, i) => (
-            <div
-              key={i}
-              className="flex justify-center"
-              style={{ minWidth: `${100 / visibleCount}%` }}
+     {/* Carousel */}
+    <div className="relative overflow-hidden max-w-6xl mx-auto px-6">
+      <motion.div
+        className="flex justify-center items-center gap-8"
+        animate={{ x: `-${current * (100 / visibleCount)}%` }}
+        transition={{ duration: 0.8, ease: "easeInOut" }}
+        style={{
+          width: `${(testimonials.length * 100) / visibleCount}%`,
+        }}
+      >
+        {testimonials.map((t, i) => (
+          <div
+            key={i}
+            className="flex justify-center flex-shrink-0"
+            style={{ minWidth: `${100 / visibleCount}%` }}
+          >
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="bg-stone-900/40 border border-stone-800 backdrop-blur-lg rounded-2xl p-8 shadow-lg text-center w-[90%] sm:w-[85%] md:w-[80%]"
             >
-              <motion.div
-                whileHover={{ scale: 1.03 }}
-                className="bg-stone-900/40 border border-stone-800 backdrop-blur-lg rounded-2xl p-8 shadow-lg text-center w-full max-w-sm"
-              >
-                <img
-                  src={t.image}
-                  alt={t.name}
-                  className="w-20 h-20 mx-auto rounded-full mb-4 border border-stone-700"
-                />
-                <h3 className="text-lg font-semibold text-white">{t.name}</h3>
-                <p className="text-sm text-stone-400">{t.role}</p>
-                <p className="mt-4 text-stone-300 italic leading-relaxed">
-                  “{t.feedback}”
-                </p>
-              </motion.div>
-            </div>
-          ))}
-        </motion.div>
-      </div>
+              <img
+                src={t.image}
+                alt={t.name}
+                className="w-20 h-20 mx-auto rounded-full mb-4 border border-stone-700 object-cover"
+              />
+              <h3 className="text-lg font-semibold text-white">{t.name}</h3>
+              <p className="text-sm text-stone-400">{t.role}</p>
+              <p className="mt-4 text-stone-300 italic leading-relaxed">
+                “{t.feedback}”
+              </p>
+            </motion.div>
+          </div>
+        ))}
+      </motion.div>
+    </div>
 
       {/* Dots */}
       <div className="flex justify-center mt-10 gap-2">
