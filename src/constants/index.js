@@ -64,9 +64,10 @@ export const PROJECTS = [
       "Personal Freelancing Project Work.",
     keyFeatures: [
       "Modern UI Design",
-      "Next.js Architecture",
+      "Next.js + Framer Motion",
       "Interactive About Section",
       "Fully Responsive",
+      "Scalable Architecture",
     ],
     technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
     github: "https://github.com/Harshitt23/Dabas.EV",
