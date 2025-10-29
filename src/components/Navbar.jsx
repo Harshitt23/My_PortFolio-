@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/raviKumarLogo.webp";
+import logo from "../assets/raviKumarLogo.png";
 import { FaGithub, FaInstagram, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
