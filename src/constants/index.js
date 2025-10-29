@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `A passionate Full Stack Developer specializing in the MERN stack and Next.js. I love crafting scalable, high-performance web applications that deliver seamless user experiences. With hands-on experience in React.js, Next.js, Node.js, and MongoDB, I focus on building clean, efficient, and production-ready solutions. I also have solid knowledge of System Design and DevOps, and I’m deeply interested in exploring the world of Web3 and decentralized technologies.`;
 
