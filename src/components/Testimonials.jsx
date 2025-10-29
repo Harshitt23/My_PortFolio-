@@ -71,8 +71,9 @@ const Testimonials = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="my-16 text-center text-4xl font-semibold text-white"
       >
-        Testimonials 💬
+        Testimonials 🗨️
       </motion.h2>
+
 
      {/* Carousel */}
     <div className="relative overflow-hidden max-w-6xl mx-auto px-6 flex justify-center">
