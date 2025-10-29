@@ -11,14 +11,14 @@ const testimonials = [
   },
   {
     name: "Rahul Jatav",
-    role: "BCA Graduate, Gorakhpur, India",
+    role: "B.Tech Graduate, Delhi, India",
     feedback:
       "Harshit is highly professional and detail-oriented. The web app he built was fast, secure, and beautifully responsive!",
     image: "https://balwant.netlify.app/rahul-modified.png",
   },
   {
     name: "Balavant Kumar",
-    role: "Full Stack Developer Noida,India",
+    role: "Full Stack Developer, Gurgaon ,India",
     feedback:
       "His backend logic and API handling are impressive. The integration with MongoDB and Express.js was flawless!",
     image: "https://balwant.netlify.app/balwantlogo-modified.png",
@@ -32,7 +32,7 @@ const testimonials = [
   },
   {
     name: "Rahul Sharma",
-    role: "BCA Graduate, Gorakhpur, India",
+    role: "BCA Graduate, Dehradun, India",
     feedback:
       "Harshit is highly professional and detail-oriented. The web app he built was fast, secure, and beautifully responsive!",
     image: "https://balwant.netlify.app/rahul-modified.png",
