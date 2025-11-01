@@ -79,7 +79,7 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Subhash Nagar, Haridwar",
   phoneNo: "+91 7828852886 ",
-  email: "Harshitr2308@gmail.com",
+  email: "harshitr2308@gmail.com",
 };
 
 // service id of emailjs->gmail:- service_lx88kz9
