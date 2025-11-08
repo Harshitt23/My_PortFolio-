@@ -43,7 +43,7 @@ export const PROJECTS = [
 },  
 {
   title: "Notes App",
-  image: project4,
+  image: project5,
   description:
     "A simple notes app built with React.js and Node.js. It allows you to create, edit, and delete notes.",
   keyFeatures: [
@@ -57,7 +57,7 @@ export const PROJECTS = [
 },
 {
     title: "FitNFoods",
-    image: project5,
+    image: project1,
     description:
       "A beautiful web application showcasing fashion inspiration and delicious food recipes, built with Express.js and modern web technologies.",
     keyFeatures: [
