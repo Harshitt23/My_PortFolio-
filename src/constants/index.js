@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `A passionate Full Stack Developer specializing in the MERN stack and Next.js. I love crafting scalable, high-performance web applications that deliver seamless user experiences. With hands-on experience in React.js, Next.js, Node.js, and MongoDB, I focus on building clean, efficient, and production-ready solutions. I also have solid knowledge of System Design and DevOps, and I’m deeply interested in exploring the world of Web3 and decentralized technologies.`;
 
@@ -41,8 +42,22 @@ export const PROJECTS = [
     live: "https://ai-summarizer-gvvduccbr-harshitt23s-projects.vercel.app",
 },  
 {
+  title: "Notes App",
+  image: project4,
+  description:
+    "A simple notes app built with React.js and Node.js. It allows you to create, edit, and delete notes.",
+  keyFeatures: [
+    "Create, edit, and delete notes",
+    "Notes are saved to the database",
+    "Notes are displayed in a list",
+  ],
+  technologies: ["React.js", "Node.js", "MongoDB", "Mongoose", "JWT", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
+  github: "https://github.com/Harshitt23/Notes-App",
+  live: "https://notes-app-harshitt23s-projects.vercel.app",
+},
+{
     title: "FitNFoods",
-    image: project1,
+    image: project5,
     description:
       "A beautiful web application showcasing fashion inspiration and delicious food recipes, built with Express.js and modern web technologies.",
     keyFeatures: [
