@@ -35,7 +35,7 @@ const Hero = () => {
                     <div className="flex justify-center lg:p-8">
                         <motion.img
                             src={profilePic}
-                            alt="Roshan Kumar"
+                            alt="Harshit Sharma"
                             className="border border-stone-900 rounded-3xl"
                             width={650}
                             height={650}
