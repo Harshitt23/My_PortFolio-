@@ -93,7 +93,7 @@ const Hero = () => {
                                 damping: 10,
                             }}
                         >
-                            🚀 Download Resume
+                             Download Resume
                         </motion.a>
 
                     </motion.div>
