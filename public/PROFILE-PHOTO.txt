@@ -1,0 +1,10 @@
+Your main portfolio photo (hero section):
+
+  Drop ONE file in this public folder named:
+    profile.jpg   (recommended)
+    OR profile.png
+    OR profile.jpeg
+
+  Replace the file anytime — refresh the browser to see it.
+
+  Tip: Use a square or portrait photo (at least 400×400 px).

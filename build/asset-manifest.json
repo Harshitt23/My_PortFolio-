@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.858fb6b3.css",
+    "main.js": "/static/js/main.31b38af4.js",
+    "static/media/project-3.png": "/static/media/project-3.d24ba50ac6ba1f0c727d.png",
+    "static/media/raviKumarLogo.png": "/static/media/raviKumarLogo.21519c0282e00eb1e7b0.png",
+    "static/media/project-2.png": "/static/media/project-2.9fb59b0476b79f470457.png",
+    "static/media/project-4.png": "/static/media/project-4.6dc16bc375590f72f8a7.png",
+    "static/media/project-5.png": "/static/media/project-5.fd2d0e00c5fd1acd2be2.png",
+    "index.html": "/index.html",
+    "main.858fb6b3.css.map": "/static/css/main.858fb6b3.css.map",
+    "main.31b38af4.js.map": "/static/js/main.31b38af4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.858fb6b3.css",
+    "static/js/main.31b38af4.js"
+  ]
+}

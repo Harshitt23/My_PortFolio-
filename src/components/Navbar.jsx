@@ -30,10 +30,11 @@ const Navbar = () => {
   // ✅ Proper section mapping
   const sectionMap = {
     Home: "home",
+    Experience: "experience",
     Education: "education",
     Skills: "skills",
     Projects: "projects",
-    Testimonials: "testimonials",
+    Achievements: "achievements",
     Contact: "contact",
   };
 

@@ -3,34 +3,25 @@ import { motion } from "framer-motion";
 export const Education = () => {
   const education = [
     {
-      degree: "Bachelor in Technology (B.Tech)",
-      institution: "Graphic Era University, Dehradun",
+      degree: "B.Tech – Computer Science",
+      institution: "Graphic Era Hill University, Dehradun",
       duration: "2021 – 2025",
-      percentage: "74%",
+      percentage: "CGPA: 7.3",
       details:
-        "Graduated with strong academic performance focusing on computer programming, data structures, web development, and database systems. Completed several real-world projects using the MERN stack, showcasing both technical and problem-solving skills.",
+        "Focused on computer programming, data structures, web development, and databases. Built MERN and Next.js projects with REST APIs and real-world deployments.",
     },
     {
-      degree: "Intermediate (12th – PCM)",
-      institution: "St. Mary's Se. Sec. School, Haridwar",
-      duration: "2020 – 2021",
+      degree: "CBSE Class XII (PCM)",
+      institution: "St. Mary's Sr. Sec. School, Haridwar",
+      duration: "2021",
       percentage: "87%",
       details:
-        "Specialized in Physics, Chemistry, and Mathematics. Built a solid understanding of logical reasoning and analytical thinking, which laid the foundation for software development.",
-    },
-    {
-      degree: "High School (10th)",
-      institution: "St. Mary's Se. Sec. School, Haridwar",
-      duration: "2019 – 2020",
-      percentage: "89%",
-      details:
-        "Achieved strong academic results with a focus on Science and Mathematics, sparking an early interest in computers and technology.",
+        "Specialized in Physics, Chemistry, and Mathematics, building a strong foundation in analytical thinking and problem solving.",
     },
   ];
 
   return (
     <div className="pb-24" id="education">
-      {/* Title */}
       <motion.h2
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -38,10 +29,9 @@ export const Education = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="my-20 text-center text-4xl font-semibold"
       >
-        Education 🎓
+        Education
       </motion.h2>
 
-      {/* Timeline */}
       <div className="max-w-4xl mx-auto relative border-l border-stone-700 pl-6">
         {education.map((edu, index) => (
           <motion.div
@@ -52,13 +42,11 @@ export const Education = () => {
             viewport={{ once: true }}
             className="mb-10 ml-4"
           >
-            <div className="absolute -left-3 w-6 h-6 bg-blue-500 rounded-full border-4 border-stone-900"></div>
+            <div className="absolute -left-3 w-6 h-6 bg-blue-500 rounded-full border-4 border-stone-900" />
             <h3 className="text-xl font-semibold text-white">{edu.degree}</h3>
             <p className="text-stone-400 text-sm mb-1">{edu.institution}</p>
             <span className="text-stone-500 text-sm italic">{edu.duration}</span>
-            <p className="text-stone-400 text-sm mt-1">
-              <strong>Percentage:</strong> {edu.percentage}
-            </p>
+            <p className="text-stone-400 text-sm mt-1">{edu.percentage}</p>
             <p className="mt-2 text-stone-300 text-[15px] leading-relaxed">
               {edu.details}
             </p>

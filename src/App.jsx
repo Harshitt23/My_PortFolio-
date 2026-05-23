@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import { Education } from "./components/Education";
+import { Experience } from "./components/Experience";
+import Achievements from "./components/Achievements";
 
 const App = () => {
   return (
@@ -25,19 +27,27 @@ const App = () => {
           <Hero />
         </section>
 
-        <section id="education" >
+        <section id="experience">
+          <Experience />
+        </section>
+
+        <section id="education">
           <Education />
         </section>
 
-        <section id="skills" >
+        <section id="skills">
           <Technologies />
         </section>
 
-        <section id="projects" >
+        <section id="projects">
           <Projects />
         </section>
 
-        <section id="testimonials" >
+        <section id="achievements">
+          <Achievements />
+        </section>
+
+        <section id="testimonials">
           <Testimonials />
         </section>
 

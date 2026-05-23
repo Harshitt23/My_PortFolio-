@@ -1,100 +1,269 @@
-import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `A passionate Full Stack Developer specializing in the MERN stack and Next.js. I love crafting scalable, high-performance web applications that deliver seamless user experiences. With hands-on experience in React.js, Next.js, Node.js, and MongoDB, I focus on building clean, efficient, and production-ready solutions. I also have solid knowledge of System Design and DevOps, and I’m deeply interested in exploring the world of Web3 and decentralized technologies.`;
+export const HERO_CONTENT = `Full Stack Developer building scalable REST APIs and production web apps with the MERN stack, Next.js, and Microsoft Azure. Currently at Aaptaat Private Limited, working on backend services, enterprise API integrations, and Claude-based AI workflows. Hackathon winner (Chainlink, Monad Blitz) with 400+ LeetCode problems solved.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer with a passion for building efficient, user-friendly, and scalable web applications. With strong experience in React.js, Next.js, Node.js, and MongoDB, I specialize in creating modern, high-performance solutions that blend functionality with great design. My journey in web development started with curiosity about how the web works and has grown into a constant pursuit of learning and innovation. I have solid knowledge of System Design and DevOps, and I’m also exploring Web3 technologies to stay ahead in the evolving tech landscape. Outside of coding, I love photography, fitness, and discovering new tools that push creative boundaries.`;
+export const ABOUT_TEXT = HERO_CONTENT;
+
+export const EXPERIENCE = [
+  {
+    role: "Full Stack Developer",
+    company: "Aaptaat Private Limited",
+    location: "Gurgaon, Haryana",
+    duration: "Jan 2026 – Present",
+    highlights: [
+      "Developed and optimized REST APIs for production workloads.",
+      "Built scalable backend services and integrated enterprise third-party APIs.",
+      "Integrated Claude-based AI workflows with backend APIs (MCP-aligned tool interactions).",
+    ],
+  },
+  {
+    role: "Freelance Software Engineer",
+    company: "Remote",
+    location: "",
+    duration: "2024 – Present",
+    highlights: [
+      "Best project: Dabas EV CMS — admin auth, RBAC with JWT, and scalable REST APIs.",
+      "Contributed to a platform supporting 5k+ EV users in India (4-developer team).",
+    ],
+  },
+];
+
+export const INTERNSHIPS = [
+  {
+    role: "Full Stack Developer Intern",
+    company: "Kaizen Prospecting LLP",
+    duration: "",
+    highlights: ["Built MERN stack web applications during a 3-month offline internship."],
+  },
+  {
+    role: "Frontend Developer Intern",
+    company: "OctaNet Private Solutions",
+    duration: "",
+    highlights: [
+      "Developed React modules and improved performance through debugging and optimization.",
+    ],
+  },
+];
+
+export const HACKATHON_WINS = [
+  {
+    title: "Chainlink Hackathon",
+    badge: "Winner",
+    prize: "$4,000 prize",
+    image: "/achievements/chainlink-hackathon.jpg",
+    imageAlt: "Chainlink Hackathon winner",
+  },
+  {
+    title: "Monad Blitz Hackathon Delhi",
+    badge: "Winner",
+    prize: "$1,000 prize",
+    image: "/achievements/monad-blitz.jpg",
+    video: "/achievements/monad-video.mov",
+    imageAlt: "Monad Blitz Hackathon Delhi winner",
+  },
+];
+
+export const OTHER_ACHIEVEMENTS = [
+  {
+    title: "100xDevs",
+    description: "100xDevs certification",
+    image: "/achievements/100xdevs.png",
+    imageAlt: "100xDevs certificate",
+  },
+  {
+    title: "LeetCode",
+    description: "400+ Data Structures & Algorithms problems solved",
+    image: "/achievements/leetcode.png",
+    imageAlt: "LeetCode profile milestone",
+  },
+  {
+    title: "IBM Certification",
+    description: "IBM Web Development Certification",
+    image: "/achievements/ibm-cert.png",
+    imageAlt: "IBM Web Development certificate",
+  },
+];
 
 export const PROJECTS = [
-
   {
-    title: "Dabas.EV [Currently Working]",
+    title: "Dabas EV CMS",
     image: project4,
     description:
-      "Personal Freelancing Project Work.",
+      "Freelance CMS for Dabas EV — secure admin authentication, role-based access, and scalable APIs for content, media, and page management.",
     keyFeatures: [
-      "Modern UI Design",
-      "Next.js + Framer Motion",
-      "Interactive About Section",
-      "Fully Responsive",
-      "Scalable Architecture",
+      "JWT-based admin authentication & RBAC",
+      "Scalable REST APIs for content & media",
+      "Platform supporting 5k+ EV users in India",
+      "Built with a 4-developer team",
     ],
-    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
+    technologies: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "JWT",
+      "REST APIs",
+      "MongoDB",
+      "Vercel",
+    ],
     github: "https://github.com/Harshitt23/Dabas.EV",
     live: "https://dabas-m6ox1k1fe-harshitt23s-projects.vercel.app",
   },
   {
-    title: "AI Summarizer using GPT-4.0",
+    title: "AI Article Summarizer",
     image: project3,
     description:
-      "AI Summarizer lets you generate concise summaries of long articles in one click, powered by OpenAI. It features Q&A, translation, fact-checking, and a modern UI built with React + Redux Toolkit.",
+      "AI web app that generates summaries of long articles using GPT-4, with Q&A, multilingual translation, and fact-checking.",
     keyFeatures: [
-      "AI-Powered Summarization",
-      "Features like - Question & Answer, Fact Checking and Translation",
-      "Modern UI with Copy to Clipboard Functionality",
-      "Advanced RTK Query Integration",
+      "LLM-powered summarization in one click",
+      "Q&A, translation, and fact-checking",
+      "RTK Query for efficient API data fetching",
+      "Modern React UI with copy-to-clipboard",
     ],
-    technologies: ["React.js", "TypeScript", "Redux Toolkit", "RTK Query", "Tailwind CSS", "OpenAI GPT-4", "Rapid API"],
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "RTK Query",
+      "Tailwind CSS",
+      "OpenAI GPT-4",
+    ],
     github: "https://github.com/Harshitt23/Ai-Summarizer",
     live: "https://ai-summarizer-gvvduccbr-harshitt23s-projects.vercel.app",
-},  
-{
-  title: "Notes App",
-  image: project5,
-  description:
-    "A simple notes app built with React.js and Node.js. It allows you to create, edit, and delete notes.",
-  keyFeatures: [
-    "Create, edit, and delete notes",
-    "Notes are saved to the database",
-    "Notes are displayed in a list",
-  ],
-  technologies: ["React.js", "Node.js", "MongoDB", "Mongoose", "JWT", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Framer motion", "Animate.css", "Vercel"],
-  github: "https://github.com/Harshitt23/Notes-App",
-  live: "https://notes-app-harshitt23s-projects.vercel.app",
-},
-{
-    title: "FitNFoods",
-    image: project1,  
-    description:
-      "A beautiful web application showcasing fashion inspiration and delicious food recipes, built with Express.js and modern web technologies.",
-    keyFeatures: [
-      "Food and fashion galleries with responsive design",
-      "Interactive 'Cute Runner' mini game",
-      "Photobooth with filters and stickers",
-      "Upload and share your own posts",
-      "Dynamic video backgrounds for immersive experience",
-    ],
-    technologies: ["Node.js", "Express.js", "HTML5", "CSS3", "Tailwind CSS", "Multer", "Animate.css", "Vercel"],
-    github: "https://github.com/Harshitt23/fitnfoods",
-    live: "https://fitnfoods-4yafm5tbi-harshitt23s-projects.vercel.app",
   },
   {
-    title: "BiteTOk",
+    title: "BiteTok – Food Video Platform",
     image: project2,
     description:
-      "A TikTok-style food video platform built with React and Node.js. Share, discover, and connect over food content with vertical video feeds, likes, and restaurant profiles.",
+      "Full-stack social platform for sharing short food videos with secure auth, vertical feeds, and partner analytics.",
     keyFeatures: [
-      "Vertical video feed with auto-play",
-      "User profiles and secure authentication",
-      "Content creation for food partners",
-      "Analytics dashboard for engagement tracking",
-      "Direct customer contact for food partners",
-      "ImageKit-powered media storage and CDN",
+      "TikTok-style vertical video feed",
+      "JWT & bcrypt authentication",
+      "Partner dashboards and engagement analytics",
+      "ImageKit-powered media CDN",
     ],
-    technologies: ["React.js", "Vite", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "ImageKit", "Multer", "Axios", "CSS3"],
+    technologies: [
+      "React.js",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "ImageKit",
+    ],
     github: "https://github.com/Harshitt23/BiteTok",
     live: "https://bite-tok-frontend-252kg3z2u-harshitt23s-projects.vercel.app",
   },
-
+  {
+    title: "Student Knowledge Hub",
+    image: project5,
+    description:
+      "Platform where students upload, explore, and access study notes, PYQs, and learning resources with search and filtering.",
+    keyFeatures: [
+      "Upload and browse notes, PYQs, and resources",
+      "Search and filtering for quick discovery",
+      "REST APIs and database-backed content management",
+      "Scalable note-sharing for students",
+    ],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "JWT",
+    ],
+    github: "https://github.com/Harshitt23",
+    live: "https://github.com/Harshitt23",
+  },
 ];
+
+export const SKILL_CATEGORIES = {
+  Languages: [
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C++",
+    "Python",
+    "SQL",
+    "PHP",
+  ],
+  Frontend: [
+    "React.js",
+    "Next.js",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Redux",
+    "Redux Toolkit",
+    "RTK Query",
+    "Bootstrap",
+    "Framer Motion",
+    "Vite",
+  ],
+  Backend: [
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "JWT Authentication",
+    "JWT",
+    "API Integration",
+    "Microservices",
+    "Multer",
+  ],
+  Database: ["MongoDB", "MySQL", "Firebase", "Mongoose"],
+  "System Design": [
+    "Authentication Systems",
+    "REST Architecture",
+    "REST API Design",
+    "Client-Server Architecture",
+    "Scalable Web Applications",
+    "State Management",
+    "Database Optimization",
+    "Caching",
+    "Scalability",
+  ],
+  "Cloud & DevOps": [
+    "Git",
+    "GitHub",
+    "Vercel",
+    "Netlify",
+    "Render",
+    "Docker (basic)",
+    "Microsoft Azure",
+  ],
+  "AI & Tools": [
+    "OpenAI APIs",
+    "OpenAI GPT-4",
+    "ChatGPT APIs",
+    "Claude",
+    "Prompt Engineering",
+    "Postman",
+    "Figma",
+    "Canva",
+    "VS Code",
+    "Cursor AI",
+    "npm",
+    "Webpack",
+    "GitHub Copilot",
+    "RapidAPI",
+    "ImageKit",
+    "Axios",
+    "Salesforce",
+  ],
+};
 
 export const CONTACT = {
   address: "Subhash Nagar, Haridwar",
-  phoneNo: "+91 7828852886 ",
+  phoneNo: "+91 7818852886",
   email: "harshitr2308@gmail.com",
+  linkedin: "https://www.linkedin.com/in/harshitcode/",
+  leetcode: "https://leetcode.com/u/Harshitt23/",
+  github: "https://github.com/Harshitt23",
 };
 
 // service id of emailjs->gmail:- service_lx88kz9
