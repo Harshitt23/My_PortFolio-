@@ -42,7 +42,7 @@ const HeroPhoto = ({ motionProps }) => {
         <span className="text-5xl mb-4">📷</span>
         <p className="text-sm leading-relaxed">
           Add your photo as{" "}
-          <code className="text-cyan-400">profile.jpg</code> in the{" "}
+          <code className="text-cyan-400">profile.JPG</code> in the{" "}
           <code className="text-cyan-400">public</code> folder, then refresh.
         </p>
       </div>
