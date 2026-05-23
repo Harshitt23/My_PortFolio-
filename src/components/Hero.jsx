@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
 
 const PROFILE_PHOTOS = [
-  "/profile.jpg",
+  "/profile.JPG",
   "/profile.jpeg",
   "/profile.png",
   "/profile.webp",
