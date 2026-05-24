@@ -78,5 +78,5 @@ LinkedIn: https://www.linkedin.com/in/harshitcode/
 Tailwind CSS
 Framer Motion
 Vercel
-React Icon
+React Icons
 
