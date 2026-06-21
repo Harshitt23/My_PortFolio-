@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/raviKumarLogo.png";
+import initials from "../assets/initials.png";
 import { FaGithub, FaInstagram, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -66,11 +66,11 @@ const Navbar = () => {
             <motion.img
               whileHover={{ scale: 1.1, rotate: 5 }}
               transition={{ type: "spring", stiffness: 200 }}
-              src={logo}
+              src={initials}
               className="mx-2"
               width={95}
               height={54}
-              alt="logo"
+              alt="initials"
             />
           </a>
 

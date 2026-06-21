@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
 
 const PROFILE_PHOTOS = [
-  "/profile.JPG",
-  "/profile.jpeg",
-  "/profile.png",
-  "/profile.webp",
+  "/mainPhoto.JPG",
+  "/mainPhoto.jpeg",
+  "/mainPhoto.png",
+  "/mainPhoto.webp",
 ];
 
 const containerVariants = {
@@ -42,7 +42,7 @@ const HeroPhoto = ({ motionProps }) => {
         <span className="text-5xl mb-4">📷</span>
         <p className="text-sm leading-relaxed">
           Add your photo as{" "}
-          <code className="text-cyan-400">profile.JPG</code> in the{" "}
+          <code className="text-cyan-400">mainPhoto.JPG</code> in the{" "}
           <code className="text-cyan-400">public</code> folder, then refresh.
         </p>
       </div>

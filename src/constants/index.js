@@ -1,22 +1,34 @@
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `Full Stack Developer building scalable REST APIs and production web apps with the MERN stack, Next.js, and Microsoft Azure. Currently at Aaptaat Private Limited, working on backend services, enterprise API integrations, and Claude-based AI workflows. Hackathon winner (Chainlink, Monad Blitz) with 400+ LeetCode problems solved.`;
+export const HERO_CONTENT = `Full Stack Developer building scalable REST APIs and production web apps with the MERN stack, Next.js, and Microsoft Azure. Currently at NIIT Limited as an Associate Software Engineer, working on Salesforce CRM administration, data operations, and enterprise platform workflows. Hackathon winner (Chainlink, Monad Blitz) with 400+ LeetCode problems solved.`;
 
 export const ABOUT_TEXT = HERO_CONTENT;
 
 export const EXPERIENCE = [
   {
+    role: "Associate Software Engineer",
+    company: "NIIT Limited",
+    location: "Gurgaon, Haryana",
+    duration: "June 2026 – Present",
+    highlights: [
+      "Administering Salesforce CRM — managing users, roles, profiles, permission sets, and workflow automation rules.",
+      "Handling end-to-end data operations including bulk imports, exports, and data quality assurance using Salesforce Data Loader.",
+      "Assisting in Salesforce customization including custom objects, fields, validation rules, and flows.",
+    ],
+  },
+  {
     role: "Full Stack Developer",
     company: "Aaptaat Private Limited",
     location: "Gurgaon, Haryana",
-    duration: "Jan 2026 – Present",
+    duration: "Jan 2026 – May 2026",
     highlights: [
       "Developed and optimized REST APIs for production workloads.",
       "Built scalable backend services and integrated enterprise third-party APIs.",
-      "Integrated Claude-based AI workflows with backend APIs (MCP-aligned tool interactions).",
+      "fixed bugs and issues in the codebase, including user stories and features.",
     ],
   },
   {
@@ -88,6 +100,39 @@ export const OTHER_ACHIEVEMENTS = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "AI Interview Collaboration Platform",
+    image: project1,
+    description:
+      "Real-time AI-powered platform for technical interviews and collaborative coding — featuring an intelligent interviewer bot, live multi-user code sessions, and instant code execution across multiple languages.",
+    keyFeatures: [
+      "AI-driven interviewer with real-time code evaluation and feedback",
+      "Live collaborative coding with Monaco Editor synced via Socket.IO",
+      "Multi-language code execution powered by Piston API",
+      "JWT + bcrypt authentication with PostgreSQL & Prisma ORM",
+      "Full-stack TypeScript — Next.js 16 (App Router) + Express 5 backend",
+    ],
+    technologies: [
+      "Next.js",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Monaco Editor",
+      "Zustand",
+      "Node.js",
+      "Express 5",
+      "Socket.IO",
+      "PostgreSQL",
+      "Prisma ORM",
+      "JWT",
+      "Piston API",
+      "Vercel",
+      "Render",
+      "Supabase",
+    ],
+    github: "https://github.com/Harshitt23/Ai-interview-Collaboration-platform",
+    live: "https://ai-interview-collaboration-platform-ixjp6ulut.vercel.app",
+  },
   {
     title: "Dabas EV CMS",
     image: project4,
