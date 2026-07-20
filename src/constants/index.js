@@ -2,7 +2,6 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `Full Stack Developer building scalable REST APIs and production web apps with the MERN stack, Next.js, and Microsoft Azure. Currently at NIIT Limited as an Associate Software Engineer, working on Salesforce CRM administration, data operations, and enterprise platform workflows. Hackathon winner (Chainlink, Monad Blitz) with 400+ LeetCode problems solved.`;
 
@@ -131,31 +130,36 @@ export const PROJECTS = [
       "Supabase",
     ],
     github: "https://github.com/Harshitt23/Ai-interview-Collaboration-platform",
-    live: "https://ai-interview-collaboration-platform-ixjp6ulut.vercel.app",
+    live: "https://ai-interview-collaboration-platform.vercel.app",
   },
   {
-    title: "Dabas EV CMS",
+    title: "Kairo – Multi-Tenant Project Management SaaS",
     image: project4,
     description:
-      "Freelance CMS for Dabas EV — secure admin authentication, role-based access, and scalable APIs for content, media, and page management.",
+      "Production-shaped, multi-tenant project-management SaaS (Linear/Jira-style) — workspaces → teams → projects → issues, with a real-time drag-and-drop board, RBAC enforced client and server, and Stripe billing.",
     keyFeatures: [
-      "JWT-based admin authentication & RBAC",
-      "Scalable REST APIs for content & media",
-      "Platform supporting 5k+ EV users in India",
-      "Built with a 4-developer team",
+      "Postgres row-level security backs tenant isolation on every request",
+      "Rotating refresh tokens with theft/reuse detection, RBAC shared client + server",
+      "Real-time optimistic Kanban board synced via Redis-backed Socket.IO",
+      "Background jobs (BullMQ) for notifications/email; presigned S3/R2 uploads",
+      "Stripe Checkout + webhooks with graceful FREE-plan fallback",
     ],
     technologies: [
       "Next.js",
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "JWT",
-      "REST APIs",
-      "MongoDB",
+      "TypeScript",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "Socket.IO",
+      "BullMQ",
+      "Stripe",
+      "Turborepo",
       "Vercel",
+      "Render",
     ],
-    github: "https://github.com/Harshitt23/Dabas.EV",
-    live: "https://dabas-m6ox1k1fe-harshitt23s-projects.vercel.app",
+    github: "https://github.com/Harshitt23/Ai-saas-multi-tenant",
+    live: "https://kairo-multi-tenant-web.vercel.app",
   },
   {
     title: "AI Article Summarizer",
@@ -177,7 +181,7 @@ export const PROJECTS = [
       "OpenAI GPT-4",
     ],
     github: "https://github.com/Harshitt23/Ai-Summarizer",
-    live: "https://ai-summarizer-gvvduccbr-harshitt23s-projects.vercel.app",
+    live: "https://ai-summarizer-nu-six.vercel.app",
   },
   {
     title: "BiteTok – Food Video Platform",
@@ -201,29 +205,7 @@ export const PROJECTS = [
       "ImageKit",
     ],
     github: "https://github.com/Harshitt23/BiteTok",
-    live: "https://bite-tok-frontend-252kg3z2u-harshitt23s-projects.vercel.app",
-  },
-  {
-    title: "Student Knowledge Hub",
-    image: project5,
-    description:
-      "Platform where students upload, explore, and access study notes, PYQs, and learning resources with search and filtering.",
-    keyFeatures: [
-      "Upload and browse notes, PYQs, and resources",
-      "Search and filtering for quick discovery",
-      "REST APIs and database-backed content management",
-      "Scalable note-sharing for students",
-    ],
-    technologies: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST APIs",
-      "JWT",
-    ],
-    github: "https://github.com/Harshitt23",
-    live: "https://github.com/Harshitt23",
+    live: "https://bite-tok-frontend.vercel.app",
   },
 ];
 
