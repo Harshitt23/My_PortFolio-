@@ -14,9 +14,9 @@ export const EXPERIENCE = [
     location: "Gurgaon, Haryana",
     duration: "June 2026 – Present",
     highlights: [
-      "Administering Salesforce CRM — managing users, roles, profiles, permission sets, and workflow automation rules.",
-      "Handling end-to-end data operations including bulk imports, exports, and data quality assurance using Salesforce Data Loader.",
-      "Assisting in Salesforce customization including custom objects, fields, validation rules, and flows.",
+      "Working on automations and workflows, leveraging skills in Salesforce and Python to enhance system functionality",
+      "Handling end-to-end data operations including bulk imports, exports, and data quality assurance using Salesforce Data Loader",
+      "Assisting in Salesforce customization including custom objects, fields, validation rules, and flows",
     ],
   },
   {
@@ -25,9 +25,9 @@ export const EXPERIENCE = [
     location: "Gurgaon, Haryana",
     duration: "Jan 2026 – May 2026",
     highlights: [
-      "Developed and optimized REST APIs for production workloads.",
-      "Built scalable backend services and integrated enterprise third-party APIs.",
-      "fixed bugs and issues in the codebase, including user stories and features.",
+      "Developed and optimized REST APIs for production workloads",
+      "Built scalable backend services and integrated enterprise third-party APIs",
+      "fixed bugs and issues in the codebase, including user stories and features",
     ],
   },
   {
@@ -36,8 +36,8 @@ export const EXPERIENCE = [
     location: "",
     duration: "2024 – Present",
     highlights: [
-      "Best project: Dabas EV CMS — admin auth, RBAC with JWT, and scalable REST APIs.",
-      "Contributed to a platform supporting 5k+ EV users in India (4-developer team).",
+      "Best project: Dabas EV CMS — admin auth, RBAC with JWT, and scalable REST APIs",
+      "Contributed to a platform supporting 5k+ EV users in India (4-developer team)",
     ],
   },
 ];
@@ -54,7 +54,7 @@ export const INTERNSHIPS = [
     company: "OctaNet Private Solutions",
     duration: "",
     highlights: [
-      "Developed React modules and improved performance through debugging and optimization.",
+      "Developed React modules and improved performance through debugging and optimization",
     ],
   },
 ];
